@@ -91,7 +91,6 @@ table, td, th{
     nav {position:static;}
 }
 
-@media (max-width: 350) {
+@media (max-width: 350px) {
     nav li {display: block;}
 }
-

@@ -1,0 +1,34 @@
+nav { 
+	position: static;
+	right: 0;
+	text-align: center;
+	list-style: none;
+	font-weight: bold;
+	background-color:#5D4C46  ;
+	width: 100%;
+}
+
+nav ul { 
+	padding: 0; 
+	margin: 5px;
+}
+
+nav li { 
+	display: inline-block;
+	margin: 5px;
+}
+
+nav a { 
+
+	display: block; 
+	padding: 10px;
+	border: 1px solid #F1A94E ;
+	text-decoration: none;
+}
+
+nav a:hover { background-color: #F1A94E; }
+
+.current { 
+	background-color: #44B3C2;
+	color: #5D4C46; 
+}

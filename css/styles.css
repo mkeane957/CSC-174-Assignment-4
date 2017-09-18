@@ -1,0 +1,97 @@
+body { 
+
+    background-color: white;
+    color: /*#44B3C2*/#F2EDD8;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+
+}
+
+header {
+
+    background-color: #F1A94E;
+    padding: 1px;
+
+}
+
+h1 {
+
+    color: white;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+h2 {
+    color: #E45641;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+h3 {color: #44B3C2;}
+h4 {color: #7B8D8E;}
+
+a {
+
+    color: #44B3C2;
+    text-decoration: none;
+
+}
+
+a:hover {color: #E45641;}
+
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: #F1A94E ;
+}
+
+
+
+.container {
+
+    margin: 0 auto;
+    width: 85%;
+    height: 85%;
+    max-width: 860px;
+    background-color: #5D4C46 ;
+    opacity: 0.95;
+    padding: 7px;
+}
+
+/*  *************************************
+    Media Queries
+    ************************************* */
+
+@media (max-width: 720px) {
+    article{
+        display: block;
+        width: auto;
+        border-right: none;
+    }
+    figure {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+        font-style: italic;
+        font-size: smaller;
+        text-indent: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 540px) {
+    article,nav {
+        padding: 0px;
+    }
+    nav {position:static;}
+}
+
+@media (max-width: 350) {
+    nav li {display: block;}
+}
+

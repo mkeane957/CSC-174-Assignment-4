@@ -11,7 +11,7 @@
 	<body>
 		<div class="container">
 			<header> 
-				<?php include "includes/navbar.inc";?>
+				<?php include "includes/navbar.php";?>
 				<h1>Student Portfolios</h1>
 			</header>
 

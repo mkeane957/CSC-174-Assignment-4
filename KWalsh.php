@@ -10,7 +10,7 @@
 	<body>
 		<div class="container">
 			<header>
-				<?php include "includes/navbar.inc";?>
+				<?php include "includes/navbar.php";?>
 				<h1>Kevin R. Walsh</h1>
 			</header>
 

@@ -1,7 +1,7 @@
 body { 
 
-    background-color: #5D4C46;
-    color: /*#44B3C2*/#F2EDD8;
+    background-color: #dee4f1;
+    color: /*#44B3C2*/#034f84;
     font-family: Verdana, Arial, sans-serif;
     font-size: 14px;
     padding: 5px;
@@ -10,44 +10,45 @@ body {
 
 header {
 
-    background-color: #F1A94E;
     padding: 1px;
+    margin-bottom: 1%;
 
 }
 
 h1 {
-
+    background-color: #034f84;
     color: white;
     text-align: center;
     font-size: 35px;
+    padding: 3%;
 
 }
 
 h2 {
-    color: #E45641;
+    color: #505050;
     text-align: center;
     font-size: 30px;
     margin: 0;
-    
 }
 
-h3 {color: #44B3C2;}
-h4 {color: #7B8D8E;}
+h3 {color: #034f84;}
+h4 {color: #f7786b;}
 
 a {
 
-    color: #44B3C2;
+    color: #034f84;
     text-decoration: none;
 
 }
 
-a:hover {color: #E45641;}
+a:hover {color: #843803;}
 
 
 table, td, th{
-    border: 1px solid black;
+    border: 2px solid;
     border-collapse: collapse;
-    border-color: #F1A94E ;
+    border-color: #034f84 ;
+    text-align: center;
 }
 
 
@@ -58,7 +59,7 @@ table, td, th{
     width: 85%;
     height: 85%;
     max-width: 860px;
-    background-color: #5D4C46 ;
+    background-color: #dee4f1 ;
     opacity: 0.95;
     padding: 7px;
 }

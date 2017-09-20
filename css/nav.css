@@ -4,8 +4,10 @@ nav {
 	text-align: center;
 	list-style: none;
 	font-weight: bold;
-	background-color:#5D4C46  ;
+	background-color:#c8d3e8  ;
 	width: 100%;
+	margin-top: 0px;
+	border: none;
 }
 
 nav ul { 
@@ -22,13 +24,16 @@ nav a {
 
 	display: block; 
 	padding: 10px;
-	border: 1px solid #F1A94E ;
+	border-radius: 15px;
 	text-decoration: none;
 }
 
-nav a:hover { background-color: #F1A94E; }
+nav a:hover { 
+	background-color: #034f84;
+	color: #c8d3e8;			
+}
 
 .current { 
 	background-color: #44B3C2;
-	color: #5D4C46; 
+	color: #92a8d1; 
 }
